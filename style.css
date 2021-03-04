@@ -1,0 +1,214 @@
+body {
+	background: #000000;
+	font-family: century gothic;
+	color: #ffffff;
+}
+
+/* Global */
+.container {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+}
+
+/* navbar */
+
+header {
+	background: #000000;
+	position: sticky;
+	top: 0;
+}
+header .container {
+	height: 100px;
+	width: 90%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 0 0 60px;
+}
+
+nav {
+	width: 65%;
+	margin: 40px 0 0 0; 
+}
+
+#branding {
+	width: 35%;
+	margin: 22px 0 10px 0; 
+}
+
+/* showcase */
+#showcase img {
+	width: 100%;
+	height: 550px;
+}
+
+/* Truestory */
+
+#truestory {
+	background: #DCDCDC;
+	color: #000000;
+	width: 100%;
+}
+
+#truestory img {
+	width: 320px;
+	height: 140px;
+	border: #ffffff 2px solid;
+}
+
+#truestory .container #box {
+	width: 30%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+#truestory .container {
+	width: 90%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin: 15px 0 0px 75px;
+	padding-bottom: 15px;
+}
+
+#yellow {
+	background: gold;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 2px 8px 2px 8px;
+}
+
+#yellow1 {
+	color: gold;
+}
+
+#green {
+	background: lightgreen;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 2px 8px 2px 8px;
+}
+
+#green1 {
+	color: lightgreen;
+}
+
+#blue {
+	background: lightblue;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 2px 8px 2px 8px;
+}
+
+#blue1 {
+	color: lightblue;
+}
+
+#truestory .container #box a {
+	background: #000000;
+	color: #ffffff;
+	padding: 5px;
+	margin: 0 40px 0 200px; 
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Our Mission */
+#mission {
+	background: #110000;
+}
+#mission .container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	color: #f4f4f4;
+	width: 90%;
+}
+
+#mission .container #mission1 {
+	width: 30%;
+}
+
+#mission .container #mission2 {
+	width: 70%;
+}
+
+#date .container #june31, #june29, #june17 {
+	width: 30%;
+	display: flex;
+	flex-flow: column;
+}
+
+#date .container {
+	width: 90%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+#date {
+	background: #0C090a;
+}
+
+#date a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#date #june31 a {
+	background: gold;
+	margin-right: 260px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#date #june29 a {
+	background: lightgreen;
+	margin-right: 260px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#date #june17 a {
+	background: lightblue;
+	margin-right: 260px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+/* footer */
+footer {
+	display: flex;
+	flex-flow: column;
+}
+footer h1 {
+	margin-left: 65px;
+}
+
+.footbar {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+.footbar h2 {
+	width: 15%;
+	padding: 0px 0px 0px 70px;
+}
+
+.footbar nav a {
+	width: 100%;
+	padding: 90px 90px 0px 0px; 
+}
+
+hr {
+	background: grey;
+}
